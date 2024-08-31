@@ -1,0 +1,62 @@
+body{
+  background-color: rgb(105, 226, 78);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.Container{
+  margin: 20%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  background: brown;
+  border: 2px solid grey;
+  border-radius: 9px;
+  width: 50%;
+}
+  
+.Container input{
+  outline: none;
+  width: 77%;
+  padding: 3;
+  border: 2px solid grey;
+  /* border-radius: 9px; */
+  
+}
+
+h1{
+  color: white;
+}
+.btn{
+  outline: none;
+  background: blue;
+  padding: 3;
+  color: white;
+ 
+  width: 20%;
+}
+.range{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  
+}
+.NumChar{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-direction: row;
+}
+.final{
+  display: flex;
+  flex-direction: row;
+}
+.fill{
+  width: 355px;
+  
+}
